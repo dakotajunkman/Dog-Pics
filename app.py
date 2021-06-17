@@ -14,9 +14,9 @@ def incoming_sms():
     """
     txt = request.form['Body']
 
-    # remove any spaces and make lowercase for query string formation
+    # remove leading and trailing white space and make lowercase
+    txt = txt.strip()
     txt = txt.lower()
-    txt = txt.split()[0]
 
     # handle random searches differently than breed searches
     if txt == 'random':
