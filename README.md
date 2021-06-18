@@ -11,7 +11,7 @@ or text a specific breed to receive a picture of your desired dog.
 ## Demonstration
 
 #### Getting random dog pictures
-INSERT GIF OF USAGE
+![](./gifs/random.gif)
 
 #### Getting specific breed pictures
-INSERT GIF OF USAGE
+![](./gifs/breeds.gif)
