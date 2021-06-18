@@ -11,7 +11,7 @@ or text a specific breed to receive a picture of your desired dog.
 ## Demonstration
 
 #### Getting random dog pictures
-![](./videos/random.MP4)
+<img src="./gifs/random.gif" width="40%">
 
 #### Getting specific breed pictures
-![](./videos/breeds.MP4)
+<img src="./gifs/breeds.gif" width="40%">
