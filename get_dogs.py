@@ -1,5 +1,4 @@
 import requests
-import config
 
 # GLOBAL CONSTANTS
 search_url = 'https://api.thedogapi.com/v1/breeds/search?q='
