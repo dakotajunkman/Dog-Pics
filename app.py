@@ -19,7 +19,7 @@ def incoming_sms():
     txt = txt.lower()
 
     # handle random searches differently than breed searches
-    if txt == 'random':
+    if txt == 'random' or txt == 'dog':
         url = get_dogs.get_random_dog()
     else:
         url = get_dogs.request_breed(txt)
