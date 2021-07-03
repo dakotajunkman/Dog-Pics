@@ -13,7 +13,7 @@ def request_breed(breed: str) -> str:
     return: reference image id for the dog if it exists, else None
     """
     try:
-        res = requests.get(search_url + breed, headers=config.api_key)
+        res = requests.get(search_url + breed)
     except:
         return
 
@@ -56,7 +56,7 @@ def get_image_url(id: str) -> str:
     return: URL of image
     """
     try:
-        res = requests.get(image_url + id, headers=config.api_key)
+        res = requests.get(image_url + id)
     except:
         return
 
@@ -75,7 +75,7 @@ def get_random_dog() -> str:
     return: url of random dog picture
     """
     try:
-        res = requests.get(rand_dog_url, headers=config.api_key)
+        res = requests.get(rand_dog_url)
     except:
         return
     
